@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Canvas fx:id="can" height="244.0" layoutX="30.0" layoutY="14.0" onMouseClicked="#addShape" width="548.0" />
+      <ListView fx:id="combo_sha" layoutX="200.0" layoutY="262.0" prefHeight="118.0" prefWidth="200.0" />
+      <Button layoutX="450.0" layoutY="330.0" mnemonicParsing="false" onAction="#cleanCan" prefHeight="37.0" prefWidth="98.0" text="Очистить" />
+   </children>
+</AnchorPane>
